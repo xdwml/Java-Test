@@ -4,7 +4,7 @@ package Tree;
  * 如果是则输出Yes,否则输出No。假设输入的数组的任意两个数字都互不相同。
  */
 import java.util.Arrays;
-public class Problem24 {
+public class Problem25 {
     public static boolean VerifySquenceOfBST(int [] sequence) {
         if(sequence==null||sequence.length<=0) return false;//鲁棒性
         int root=sequence[sequence.length-1];
